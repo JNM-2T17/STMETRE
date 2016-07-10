@@ -1,97 +1,6 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Amor%
-\ \protect \BOthers {.}}{%
-Amor%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2015}}%
-}]{%
-Amor:2015}
-\APACinsertmetastar {%
-Amor:2015}%
-\begin{APACrefauthors}%
-Amor, B.%
-, Vuik, S.%
-, Callahan, R.%
-, Darzi, A.%
-, Yaliraki, S\BPBI N.%
-\BCBL {}\ \BBA {} Barahona, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Community detection and role identification in directed
-  networks: understanding the Twitter network of the care.data debate.}
-  {Community detection and role identification in directed networks:
-  understanding the twitter network of the care.data debate.}{\BBCQ}
-\newblock
-
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Bakillah%
-, Li%
-\BCBL {}\ \BBA {} Liang%
-}{%
-Bakillah%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2015}}%
-}]{%
-Bakillah:2014}
-\APACinsertmetastar {%
-Bakillah:2014}%
-\begin{APACrefauthors}%
-Bakillah, M.%
-, Li, R\BHBI Y.%
-\BCBL {}\ \BBA {} Liang, S\BPBI H\BPBI L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{{\APACmonth{02}}}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Geo-located Community Detection in Twitter with Enhanced
-  Fast-greedy Optimization of Modularity: The Case Study of Typhoon Haiyan}
-  {Geo-located community detection in twitter with enhanced fast-greedy
-  optimization of modularity: The case study of typhoon haiyan}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Int. J. Geogr. Inf. Sci.}{29}{2}{258--279}.
-\newblock
-\begin{APACrefDOI} \doi{10.1080/13658816.2014.964247} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Bryden%
-, Funk%
-\BCBL {}\ \BBA {} Jansen%
-}{%
-Bryden%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2013}}%
-}]{%
-Bryden:2013}
-\APACinsertmetastar {%
-Bryden:2013}%
-\begin{APACrefauthors}%
-Bryden, J.%
-, Funk, S.%
-\BCBL {}\ \BBA {} Jansen, V\BPBI A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2013}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Word usage mirrors community structure in the online
-  social network Twitter} {Word usage mirrors community structure in the online
-  social network twitter}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{EPJ Data Science}{2}{1}{1--9}.
-\newblock
-\begin{APACrefDOI} \doi{10.1140/epjds15} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Cao%
 , Lu%
 , Lin%
@@ -123,66 +32,6 @@ Cao, N.%
 \APACjournalVolNumPages{Journal of Visualization}{18}{2}{221--235}.
 \newblock
 \begin{APACrefDOI} \doi{10.1007/s12650-014-0246-x} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Clauset%
-, Newman%
-\BCBL {}\ \BBA {} Moore%
-}{%
-Clauset%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2004}}%
-}]{%
-Clauset:2004}
-\APACinsertmetastar {%
-Clauset:2004}%
-\begin{APACrefauthors}%
-Clauset, A.%
-, Newman, M\BPBI E\BPBI J.%
-\BCBL {}\ \BBA {} Moore, C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2004}{Dec}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Finding community structure in very large networks}
-  {Finding community structure in very large networks}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Phys. Rev. E}{70}{}{066111}.
-\newblock
-\begin{APACrefDOI} \doi{10.1103/PhysRevE.70.066111} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Darmon%
-, Omodei%
-\BCBL {}\ \BBA {} Garland%
-}{%
-Darmon%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2015}}%
-}]{%
-Darmon:2015}
-\APACinsertmetastar {%
-Darmon:2015}%
-\begin{APACrefauthors}%
-Darmon, D.%
-, Omodei, E.%
-\BCBL {}\ \BBA {} Garland, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{08}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Followers Are Not Enough: A Multifaceted Approach to
-  Community Detection in Online Social Networks} {Followers are not enough: A
-  multifaceted approach to community detection in online social
-  networks}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{PLoS ONE}{10}{8}{1-20}.
-\newblock
-\begin{APACrefDOI} \doi{10.1371/journal.pone.0134860} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -247,40 +96,10 @@ Java, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Lancichinetti%
-, Radicchi%
-, Ramasco%
-\BCBL {}\ \BBA {} Fortunato%
-}{%
-Lancichinetti%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2011}}%
-}]{%
-Lancichinetti:2011}
-\APACinsertmetastar {%
-Lancichinetti:2011}%
-\begin{APACrefauthors}%
-Lancichinetti, A.%
-, Radicchi, F.%
-, Ramasco, J\BPBI J.%
-\BCBL {}\ \BBA {} Fortunato, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2011}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Finding Statistically Significant Communities in
-  Networks.} {Finding statistically significant communities in
-  networks.}{\BBCQ}
-\newblock
-\APACjournalVolNumPages{PLoS ONE}{6}{4}{1 - 18}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-K.~Lim%
+Lim%
 \ \BBA {} Datta%
 }{%
-K.~Lim%
+Lim%
 \ \BBA {} Datta%
 }{%
 {\protect \APACyear {2012}}%
@@ -310,92 +129,31 @@ Lim, K.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-K\BPBI H.~Lim%
-\ \BBA {} Datta%
+Tang%
+\ \BBA {} Liu%
 }{%
-K\BPBI H.~Lim%
-\ \BBA {} Datta%
+Tang%
+\ \BBA {} Liu%
 }{%
-{\protect \APACyear {2012}}%
+{\protect \APACyear {2010}}%
 }]{%
-Lim:2012:0}
+Tang:2010}
 \APACinsertmetastar {%
-Lim:2012:0}%
+Tang:2010}%
 \begin{APACrefauthors}%
-Lim, K\BPBI H.%
-\BCBT {}\ \BBA {} Datta, A.%
+Tang, L.%
+\BCBT {}\ \BBA {} Liu, H.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2012}{}{}.
+\APACrefYear{2010}.
 \newblock
-{\BBOQ}\APACrefatitle {Finding twitter communities with common interests using
-  following links of celebrities} {Finding twitter communities with common
-  interests using following links of celebrities}.{\BBCQ}
+\APACrefbtitle {Community Detection and Mining in Social Media} {Community
+  detection and mining in social media}.
 \newblock
-\BIn{} \APACrefbtitle {HT.} {Ht.}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Papadopoulos%
-, Kompatsiaris%
-, Vakali%
-\BCBL {}\ \BBA {} Spyridonos%
-}{%
-Papadopoulos%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2012}}%
-}]{%
-Papadopoulos:2012}
-\APACinsertmetastar {%
-Papadopoulos:2012}%
-\begin{APACrefauthors}%
-Papadopoulos, S.%
-, Kompatsiaris, Y.%
-, Vakali, A.%
-\BCBL {}\ \BBA {} Spyridonos, P.%
-\end{APACrefauthors}%
-\unskip\
+\APACaddressPublisher{}{Morgan \& Claypool}.
 \newblock
-\APACrefYearMonthDay{2012}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Community detection in Social Media} {Community
-  detection in social media}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Data Mining and Knowledge Discovery}{24}{3}{515--554}.
-\newblock
-\begin{APACrefDOI} \doi{10.1007/s10618-011-0224-z} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Pearce%
-, Holmberg%
-, Hellsten%
-\BCBL {}\ \BBA {} Nerlich%
-}{%
-Pearce%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2014}}%
-}]{%
-Pearce:2014}
-\APACinsertmetastar {%
-Pearce:2014}%
-\begin{APACrefauthors}%
-Pearce, W.%
-, Holmberg, K.%
-, Hellsten, I.%
-\BCBL {}\ \BBA {} Nerlich, B.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Climate Change on Twitter: Topics, Communities and
-  Conversations about the 2013 IPCC Working Group 1 Report.} {Climate change on
-  twitter: Topics, communities and conversations about the 2013 ipcc working
-  group 1 report.}{\BBCQ}
-\newblock
-\APACjournalVolNumPages{PLoS ONE}{9}{4}{1 - 11}.
+\begin{APACrefDOI} \doi{10.2200/S00298ED1V01Y201009DMK003} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -426,36 +184,6 @@ West, R.%
   person-to-person sentiment analysis.}{\BBCQ}
 \newblock
 
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Xie%
-}{%
-Xie%
-}{%
-{\protect \APACyear {2012}}%
-}]{%
-Xie:2012}
-\APACinsertmetastar {%
-Xie:2012}%
-\begin{APACrefauthors}%
-Xie, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2012}.
-\unskip\
-\newblock
-\APACrefbtitle {Agent-based Dynamics Models for Opinion Spreading and Community
-  Detection in Large-scale Social Networks} {Agent-based dynamics models for
-  opinion spreading and community detection in large-scale social networks}\
-  \APACtypeAddressSchool {\BUPhD}{}{}.
-\unskip\
-\newblock
-\APACaddressSchool {Troy, NY, USA}{}.
-\unskip\
-\newblock
-\APACrefnote{AAI3533361}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
