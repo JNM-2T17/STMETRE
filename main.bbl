@@ -209,7 +209,8 @@ Deitrick, W.%
   analysis on twitter networks} {Mutually enhancing community detection and
   sentiment analysis on twitter networks}.{\BBCQ}
 \newblock
-
+\APACjournalVolNumPages{Journal of Data Analysis and Information
+  Processing}{}{1}{19-29}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -333,7 +334,9 @@ Lim, K\BPBI H.%
   following links of celebrities} {Finding twitter communities with common
   interests using following links of celebrities}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {HT.} {Ht.}
+\BIn{} \APACrefbtitle {Proceedings of the 23rd {ACM} Conference on Hypertext
+  and Social Media (HT12).} {Proceedings of the 23rd {ACM} conference on
+  hypertext and social media (ht12).}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
