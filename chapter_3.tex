@@ -7,27 +7,65 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Research Methodology}
-This chapter lists and discusses the specific steps and activities that will be performed by the proponent to accomplish the project. 
-The discussion covers the activities from pre-proposal to Final Thesis Writing.  It also includes an initial discussion on the theoretical
-framework to be followed.
+This chapter details the research activities to be done for the duration of this thesis. Our study will be in three main parts: the preparation phase, the iterative experimentation phase, and the analysis and finalization phase.
 
-\section{Research Activities}
-Research activities include inquiry, survey, research, brainstorming, canvassing, consultation, review, interview, observe, experiment, design, 
-test, document, etc.  The methodology also includes the following information:
+\section{Preparation}
 
-\begin{itemize}
-   \item who is responsible for the task
-   \item the resource person to be contacted
-   \item what will be done
-   \item when and how long will the activity be done
-   \item where will it be done
-   \item why should be activity be done
-\end{itemize}
+This phase constitutes the gathering of information pertinent to the study. This includes reviewing related literature and building a theoretical framework.
 
+The review of related literature step will only take two weeks for the initial bibliography. 
+
+The theoretical framework step will overlap with the review of related literature step and possibly take two more weeks. This step will include gathering implementation details for the variables in the experimentation phase: community detection algorithms found in the review of related literature; computing similarity parameters, including sentiment analysis and features in Twitter and Facebook; and evaluation metrics. 
+
+This phase also includes finding the necessary API’s to use in collecting data from Facebook and Twitter. In addition to this, this phase will also include selection of the platform to host the data and a programming language to implement the model. This phase will take up the first month of the study. 
+
+This phase is necessary because it provides the theoretical framework around which the entire study will be based on, as well as deciding the platform and programming language to be used throughout the study. All design and implementation performed in the project will be based on the information gathered in this phase.
+
+\section{Iterative Experimentation}
+
+This phase deals with design, implementation, and testing of multiple community detection models. Each iteration would differ based on two variables: a different similarity parameter and a different community detection algorithm. Each iteration will take two to three weeks to perform, depending on how many of the aforementioned variables differ and how different the given variable’s implementation details are from the previous iteration’s.
+
+\subsection{Similarity Parameter Selection}
+
+Since this study aims to produce an accurate visualization of communities in social media, it is necessary to find out which parameter would produce the most accurate communities. This is the reason why there will be multiple iterations. 
+
+Based on the RRL and the Theoretical Framework, a similarity parameter will be selected. This feature need not be applicable to both Facebook and Twitter. If it is not available in one of the social networks, data from that network will not be used.
+
+\subsection{Community Detection Algorithm Selection}
+
+In producing accurate visualizations of communities, it is also necessary to select the best community detection algorithm for the data. Each iteration would then deal with a different combination of similarity parameter and community detection algorithm.
+
+Based on the RRL and the Theoretical Framework, a community detection algorithm will be selected. This algorithm must be compatible with the selected similarity parameter.
+
+\subsection{Data Collection}
+
+User data will be collected from Facebook and Twitter, if the similarity parameter chosen applies to both. Otherwise, data will only be collected from the social network which the parameter applies to. The API’s will be used to gather the data. This will be done in order to have a corpus of data to perform the algorithms on.
+
+Afterwards, each user profile and post’s user details will be anonymized. This includes the username and the real name.  This anonymization is done to preserve the terms and conditions of using public data extracted from social media. 
+
+Any other data transformation necessary for the parameter or the algorithm will then be performed.
+
+\subsection{Model Design}
+
+The proponents will design a model for the selected algorithm and similarity parameters. For the first iteration, this step should also include designing the model for the evaluation module i.e., the module which will evaluate the detected communities. This should take three to four days depending on whether the algorithm or the parameter was used in a previous iteration. This is done to organize the given algorithm and feature in a model that is ready for implementation.
+
+\subsection{Model Implementation}
+
+The majority of the iteration will involve implementing the given model in the language. This should take one to two weeks depending if the algorithm or parameter has already been implemented in a previous iteration. For the first iteration, this step should also include the implementation of the evaluation metrics. This is done in order to have a working model that can be run on the collected data and tested for accuracy.
+
+\subsection{Model Evaluation}
+
+For the next two to three days of the iteration, the model will be run on the collected data separately for Facebook and Twitter and the evaluation module will be run on the detected communities in order to measure the communities’ accuracy. This is done in order to evaluate how the selected parameter and algorithm performs on the collected data, which will be comparable at the end of the study to the results from other iterations, allowing the proponents to select which parameter-algorithm pair produces the most accurate communities in which particular social network.
+
+\subsection{Documentation}
+
+For the last one to two days of the iteration, the proponents will finalize the documentation of the iteration. Note that documentation should have been done regularly throughout the iteration, but this step is to ensure the quality and correctness of the documentation. This step will also include a retrospective on what worked in the previous iteration, what did not work, and how the development process can be improved. This step is done in order to ensure integrity in the data and documentation as well as to constantly improve the development process during the duration of the study.
+
+\section{Analysis and Finalization}
+
+This phase will involve revisiting the data collected from the multiple iterations and selecting which combination of parameters and algorithm resulted in the most accurate communities. This phase may include supplementary research in an attempt to see why some combinations produced better communities than others to have a more thorough understanding of the results. Finally, the proponents will produce a visualization using the best parameter-algorithm combination, satisfying the objective of the study. This phase should take two to three weeks, mirroring the steps of one iteration in the previous phase. This step is necessary in order for the information gathered in this study to be presentable and to have a tangible output based on the results of the study.
 
 \section{Calendar of Activities}
-
-A Gantt chart showing the schedule of the activities should be included as a table. For example:
 
 Table \ref{tab:timetableactivities} shows a Gantt chart of the activities.  Each bullet represents approximately
 one week worth of activity.
@@ -40,31 +78,15 @@ one week worth of activity.
 \newcommand{\weekthree}{\textbullet \textbullet \textbullet}
 \newcommand{\weekfour}{\textbullet \textbullet \textbullet \textbullet}
 
-%
-%  alternative to bullet is a star 
-%
-\begin{comment}
-   \newcommand{\weekone}{$\star$}
-   \newcommand{\weektwo}{$\star \star$}
-   \newcommand{\weekthree}{$\star \star \star$}
-   \newcommand{\weekfour}{$\star \star \star \star$ }
-\end{comment}
-
-
-
 \begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
-\centering
-\caption{Timetable of Activities} \vspace{0.25em}
-\begin{tabular}{|p{2in}|c|c|c|c|c|c|c|c|} \hline
-\centering Activities (2009) & Jan   & Feb & Mar & Apr & May & Jun & Jul \\ \hline
-Study on Prerequisite Knowledge      &   &  & ~~~\weektwo & \weekfour &  &  &  \\ \hline
-Review of Existing Racing Strategies & ~~~\weektwo  & \weekfour & \weekfour & \weekfour &  &  &  \\ \hline
-Identification of Best Features      &   &  &  & \weekfour & \weektwo~~~ &  &  \\ \hline
-Development of Racing Strategies     &   &  &  & ~~~\weektwo & \weekfour & \weektwo~~~ &  \\ \hline
-Simulation of Racing Strategies      &   &  &  & ~~~\weektwo & \weekfour & \weekthree~~ &  \\ \hline
-Analysis and Interpretation of the Results &   &  &  &  & \weekfour & \weekfour & \weekone~~~~~ \\ \hline
-Documentation & ~~~\weektwo  & \weekfour & \weekfour & \weekfour & \weekfour & \weekfour & \weektwo~~~ \\ \hline
-\end{tabular}
-\label{tab:timetableactivities}
+	\centering
+	\caption{Timetable of Activities} \vspace{0.25em}
+	\begin{tabular}{|p{2in}|c|c|c|c|c|c|c|c|c|} \hline
+		\centering Activities (2016-2017) & Sept & Oct & Nov & Dec & Jan & Feb & Mar & Apr & May \\ \hline
+		Preparation (RRL) & \weektwo\_ \_ &  & & &  &  &  & &\weekthree\_ \\ \hline
+		Preparation (TF) & \weekfour & & & &  &  &   & & \\ \hline
+		Iterative Experimentation & & \weekfour & \weekfour & \weekfour & \weekfour & \weekfour & \weekfour   &\weekfour & \\ \hline
+		Analysis and Finalization & & & & & & & & & \weekthree\_ \\ \hline
+	\end{tabular}
+	\label{tab:timetableactivities}
 \end{table}
-
