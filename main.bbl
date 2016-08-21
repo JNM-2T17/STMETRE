@@ -340,6 +340,31 @@ Lim, K\BPBI H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+McCarthy%
+}{%
+McCarthy%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+McCarthy:2014}
+\APACinsertmetastar {%
+McCarthy:2014}%
+\begin{APACrefauthors}%
+McCarthy, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{{\APACmonth{10}}}{}.
+\newblock
+\APACrefbtitle {Facebook Versus Twitter In Numbers [Infographic].} {Facebook
+  versus twitter in numbers [infographic].}
+\newblock
+\begin{APACrefURL}
+  \url{http://www.forbes.com/sites/niallmccarthy/2014/10/14/facebook-versus-twitter-infographic/#6a24b33f7e18}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Papadopoulos%
 , Kompatsiaris%
 , Vakali%

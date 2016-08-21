@@ -11,15 +11,11 @@ This chapter details the research activities to be done for the duration of this
 
 \section{Preparation}
 
-This phase constitutes the gathering of information pertinent to the study. This includes reviewing related literature and building a theoretical framework.
+This phase constitutes the gathering of information pertinent to the study. This includes reviewing related literature and building a theoretical framework. The review of related literature step will only take two weeks for the initial bibliography. The theoretical framework step will overlap with the review of related literature step and possibly take two more weeks. This step will include gathering implementation details for the variables in the experimentation phase: community detection algorithms found in the review of related literature; computing similarity parameters, including sentiment analysis and features in Twitter and Facebook; and evaluation metrics. 
 
-The review of related literature step will only take two weeks for the initial bibliography. 
+This phase includes finding the necessary API’s to use in collecting data from Facebook and Twitter. Selection of the platform to host the data and a programming language to implement the model is also part of this phase's activities. 
 
-The theoretical framework step will overlap with the review of related literature step and possibly take two more weeks. This step will include gathering implementation details for the variables in the experimentation phase: community detection algorithms found in the review of related literature; computing similarity parameters, including sentiment analysis and features in Twitter and Facebook; and evaluation metrics. 
-
-This phase also includes finding the necessary API’s to use in collecting data from Facebook and Twitter. In addition to this, this phase will also include selection of the platform to host the data and a programming language to implement the model. This phase will take up the first month of the study. 
-
-This phase is necessary because it provides the theoretical framework around which the entire study will be based on, as well as deciding the platform and programming language to be used throughout the study. All design and implementation performed in the project will be based on the information gathered in this phase.
+This phase will take up the first month of the study. It is necessary because it provides the theoretical framework around which the entire study will be based on, as well as deciding the platform and programming language to be used throughout the study. All design and implementation performed in the project will be based on the information gathered in this phase.
 
 \section{Iterative Experimentation}
 
@@ -27,13 +23,13 @@ This phase deals with design, implementation, and testing of multiple community 
 
 \subsection{Similarity Parameter Selection}
 
-Since this study aims to produce an accurate visualization of communities in social media, it is necessary to find out which parameter would produce the most accurate communities. This is the reason why there will be multiple iterations. 
+Since this study aims to produce an accurate visualization of communities in social media, it is necessary to find out which parameter would produce the best communities based on the evaluation metric found in the preparation phase. This is the reason why there will be multiple iterations. 
 
 Based on the RRL and the Theoretical Framework, a similarity parameter will be selected. This feature need not be applicable to both Facebook and Twitter. If it is not available in one of the social networks, data from that network will not be used.
 
 \subsection{Community Detection Algorithm Selection}
 
-In producing accurate visualizations of communities, it is also necessary to select the best community detection algorithm for the data. Each iteration would then deal with a different combination of similarity parameter and community detection algorithm.
+In producing the visualizations of communities, it is also necessary to select the best community detection algorithm for the data, which is determined by using the evaluation metric on the produced communities. Each iteration would then deal with a different combination of similarity parameter and community detection algorithm.
 
 Based on the RRL and the Theoretical Framework, a community detection algorithm will be selected. This algorithm must be compatible with the selected similarity parameter.
 
@@ -65,6 +61,9 @@ For the last one to two days of the iteration, the proponents will finalize the 
 
 This phase will involve revisiting the data collected from the multiple iterations and selecting which combination of parameters and algorithm resulted in the most accurate communities. This phase may include supplementary research in an attempt to see why some combinations produced better communities than others to have a more thorough understanding of the results. Finally, the proponents will produce a visualization using the best parameter-algorithm combination, satisfying the objective of the study. This phase should take two to three weeks, mirroring the steps of one iteration in the previous phase. This step is necessary in order for the information gathered in this study to be presentable and to have a tangible output based on the results of the study.
 
+\newpage
+\begin{landscape}
+	
 \section{Calendar of Activities}
 
 Table \ref{tab:timetableactivities} shows a Gantt chart of the activities.  Each bullet represents approximately
@@ -81,12 +80,13 @@ one week worth of activity.
 \begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
 	\centering
 	\caption{Timetable of Activities} \vspace{0.25em}
-	\begin{tabular}{|p{2in}|c|c|c|c|c|c|c|c|c|} \hline
-		\centering Activities (2016-2017) & Sept & Oct & Nov & Dec & Jan & Feb & Mar & Apr & May \\ \hline
-		Preparation (RRL) & \weektwo\_ \_ &  & & &  &  &  & &\weekthree\_ \\ \hline
-		Preparation (TF) & \weekfour & & & &  &  &   & & \\ \hline
-		Iterative Experimentation & & \weekfour & \weekfour & \weekfour & \weekfour & \weekfour & \weekfour   &\weekfour & \\ \hline
-		Analysis and Finalization & & & & & & & & & \weekthree\_ \\ \hline
-	\end{tabular}
+	\begin{longtabu} to 1.5\textwidth{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|} \hline
+		\centering Activities (2016-2017) & Jul & Aug & Sept & Oct & Nov & Dec & Jan & Feb & Mar & Apr & May & Jun & Jul & Aug \\ \hline
+		Preparation (RRL) & \_\weekthree & \weekthree\_ &  &  & & & & & & &  &  & \_\_\weektwo & \weekone\_\_\_ \\ \hline
+		Preparation (TF) & \_\weekthree & \weekthree\_ & \_\_\weektwo & & & &  &  & & & & & & \\ \hline
+		Iterative Experimentation & & & & \weekfour & \weekfour & \weektwo\_\_ & \_\weekthree & \weekfour & \weekfour   & \weekfour & \weekfour & \weekfour & \weektwo\_\_ & \\ \hline
+		Analysis and Finalization & & & & & & & & & & & & & \_\_\weektwo & \weekone\_\_\_ \\ \hline
+	\end{longtabu}
 	\label{tab:timetableactivities}
 \end{table}
+\end{landscape}

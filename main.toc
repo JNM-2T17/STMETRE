@@ -8,19 +8,20 @@
 \contentsline {chapter}{\numberline {2}Review of Related Literature}{5}
 \contentsline {section}{\numberline {2.1}Community Detection}{5}
 \contentsline {section}{\numberline {2.2}Similarity Parameters}{11}
-\contentsline {subsection}{\numberline {2.2.1}Sentiment Analysis}{12}
+\contentsline {subsection}{\numberline {2.2.1}Sentiment Analysis}{11}
 \contentsline {subsection}{\numberline {2.2.2}Other Parameters}{13}
 \contentsline {section}{\numberline {2.3}Community Evaluation Metrics}{14}
-\contentsline {chapter}{\numberline {3}Research Methodology}{19}
-\contentsline {section}{\numberline {3.1}Preparation}{19}
-\contentsline {section}{\numberline {3.2}Iterative Experimentation}{20}
-\contentsline {subsection}{\numberline {3.2.1}Similarity Parameter Selection}{20}
-\contentsline {subsection}{\numberline {3.2.2}Community Detection Algorithm Selection}{20}
-\contentsline {subsection}{\numberline {3.2.3}Data Collection}{21}
-\contentsline {subsection}{\numberline {3.2.4}Model Design}{21}
-\contentsline {subsection}{\numberline {3.2.5}Model Implementation}{21}
-\contentsline {subsection}{\numberline {3.2.6}Model Evaluation}{21}
-\contentsline {subsection}{\numberline {3.2.7}Documentation}{22}
-\contentsline {section}{\numberline {3.3}Analysis and Finalization}{22}
+\contentsline {chapter}{\numberline {3}Research Methodology}{18}
+\contentsline {section}{\numberline {3.1}Preparation}{18}
+\contentsline {section}{\numberline {3.2}Iterative Experimentation}{19}
+\contentsline {subsection}{\numberline {3.2.1}Similarity Parameter Selection}{19}
+\contentsline {subsection}{\numberline {3.2.2}Community Detection Algorithm Selection}{19}
+\contentsline {subsection}{\numberline {3.2.3}Data Collection}{19}
+\contentsline {subsection}{\numberline {3.2.4}Model Design}{20}
+\contentsline {subsection}{\numberline {3.2.5}Model Implementation}{20}
+\contentsline {subsection}{\numberline {3.2.6}Model Evaluation}{20}
+\contentsline {subsection}{\numberline {3.2.7}Documentation}{21}
+\contentsline {section}{\numberline {3.3}Analysis and Finalization}{21}
 \contentsline {section}{\numberline {3.4}Calendar of Activities}{22}
+\contentsline {chapter}{\numberline {A}Resource Persons}{23}
 \contentsline {chapter}{References}{24}
