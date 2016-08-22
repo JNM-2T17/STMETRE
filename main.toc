@@ -23,5 +23,6 @@
 \contentsline {subsection}{\numberline {3.2.7}Documentation}{21}
 \contentsline {section}{\numberline {3.3}Analysis and Finalization}{21}
 \contentsline {section}{\numberline {3.4}Calendar of Activities}{22}
-\contentsline {chapter}{\numberline {A}Resource Persons}{23}
-\contentsline {chapter}{References}{24}
+\contentsline {chapter}{\numberline {A}Research Ethics Documents}{23}
+\contentsline {chapter}{\numberline {B}Resource Persons}{24}
+\contentsline {chapter}{References}{25}
